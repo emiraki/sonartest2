@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0A0DEC285CB0300091E10D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A0DEB285CB0300091E10D /* AppDelegate.swift */; };
+		AC0A0DEE285CB0300091E10D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A0DED285CB0300091E10D /* SceneDelegate.swift */; };
+		AC0A0DF0285CB0300091E10D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A0DEF285CB0300091E10D /* ViewController.swift */; };
+		AC0A0DF3285CB0300091E10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0A0DF1285CB0300091E10D /* Main.storyboard */; };
+		AC0A0DF5285CB0330091E10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0A0DF4285CB0330091E10D /* Assets.xcassets */; };
+		AC0A0DF8285CB0330091E10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0A0DF6285CB0330091E10D /* LaunchScreen.storyboard */; };
+		AC0A0E03285CB0330091E10D /* SonarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A0E02285CB0330091E10D /* SonarDemoTests.swift */; };
+		AC0A0E0D285CB0330091E10D /* SonarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A0E0C285CB0330091E10D /* SonarDemoUITests.swift */; };
+		B6EC4C6D2D69FF4C3580B05D /* Pods_SonarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5A93F5D54B8C2DECB9D236 /* Pods_SonarDemo.framework */; };
+		CB65ED63880FA8F6F2C2100D /* Pods_SonarDemo_SonarDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ABEBA74E1F81D58FBD5BCE /* Pods_SonarDemo_SonarDemoUITests.framework */; };
+		CD55CF2C7CA42341891F180E /* Pods_SonarDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4933E7C440C2ADFE0AA5E4 /* Pods_SonarDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0A0DFF285CB0330091E10D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0A0DE0285CB0300091E10D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0A0DE7285CB0300091E10D;
+			remoteInfo = SonarDemo;
+		};
+		AC0A0E09285CB0330091E10D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0A0DE0285CB0300091E10D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0A0DE7285CB0300091E10D;
+			remoteInfo = SonarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE784908E576FA46822466C /* Pods-SonarDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SonarDemoTests/Pods-SonarDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A4933E7C440C2ADFE0AA5E4 /* Pods_SonarDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonarDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BC1924D5937BD6EA3D23D8 /* Pods-SonarDemo-SonarDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarDemo-SonarDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SonarDemo-SonarDemoUITests/Pods-SonarDemo-SonarDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E9441EEA43D88B4C601BA01 /* Pods-SonarDemo-SonarDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarDemo-SonarDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SonarDemo-SonarDemoUITests/Pods-SonarDemo-SonarDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		55463974162A925F7F4BA1A7 /* Pods-SonarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarDemo.debug.xcconfig"; path = "Target Support Files/Pods-SonarDemo/Pods-SonarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		55ABEBA74E1F81D58FBD5BCE /* Pods_SonarDemo_SonarDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonarDemo_SonarDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5A93F5D54B8C2DECB9D236 /* Pods_SonarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3AA7E141F0A2ED03C2F0A8 /* Pods-SonarDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SonarDemoTests/Pods-SonarDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC0A0DE8285CB0300091E10D /* SonarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0A0DEB285CB0300091E10D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0A0DED285CB0300091E10D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC0A0DEF285CB0300091E10D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC0A0DF2285CB0300091E10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC0A0DF4285CB0330091E10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0A0DF7285CB0330091E10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0A0DF9285CB0330091E10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0A0DFE285CB0330091E10D /* SonarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0A0E02285CB0330091E10D /* SonarDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarDemoTests.swift; sourceTree = "<group>"; };
+		AC0A0E08285CB0330091E10D /* SonarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0A0E0C285CB0330091E10D /* SonarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarDemoUITests.swift; sourceTree = "<group>"; };
+		BCCCBD8862DD308BB94A5AA0 /* Pods-SonarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarDemo.release.xcconfig"; path = "Target Support Files/Pods-SonarDemo/Pods-SonarDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0A0DE5285CB0300091E10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EC4C6D2D69FF4C3580B05D /* Pods_SonarDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A0DFB285CB0330091E10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD55CF2C7CA42341891F180E /* Pods_SonarDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A0E05285CB0330091E10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB65ED63880FA8F6F2C2100D /* Pods_SonarDemo_SonarDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0A0DDF285CB0300091E10D = {
+			isa = PBXGroup;
+			children = (
+				AC0A0DEA285CB0300091E10D /* SonarDemo */,
+				AC0A0E01285CB0330091E10D /* SonarDemoTests */,
+				AC0A0E0B285CB0330091E10D /* SonarDemoUITests */,
+				AC0A0DE9285CB0300091E10D /* Products */,
+				F3FB18EA03564DC1D640D0C6 /* Pods */,
+				DB6CE8EC2818F1E8AE7E7C6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0A0DE9285CB0300091E10D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A0DE8285CB0300091E10D /* SonarDemo.app */,
+				AC0A0DFE285CB0330091E10D /* SonarDemoTests.xctest */,
+				AC0A0E08285CB0330091E10D /* SonarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0A0DEA285CB0300091E10D /* SonarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A0DEB285CB0300091E10D /* AppDelegate.swift */,
+				AC0A0DED285CB0300091E10D /* SceneDelegate.swift */,
+				AC0A0DEF285CB0300091E10D /* ViewController.swift */,
+				AC0A0DF1285CB0300091E10D /* Main.storyboard */,
+				AC0A0DF4285CB0330091E10D /* Assets.xcassets */,
+				AC0A0DF6285CB0330091E10D /* LaunchScreen.storyboard */,
+				AC0A0DF9285CB0330091E10D /* Info.plist */,
+			);
+			path = SonarDemo;
+			sourceTree = "<group>";
+		};
+		AC0A0E01285CB0330091E10D /* SonarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A0E02285CB0330091E10D /* SonarDemoTests.swift */,
+			);
+			path = SonarDemoTests;
+			sourceTree = "<group>";
+		};
+		AC0A0E0B285CB0330091E10D /* SonarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A0E0C285CB0330091E10D /* SonarDemoUITests.swift */,
+			);
+			path = SonarDemoUITests;
+			sourceTree = "<group>";
+		};
+		DB6CE8EC2818F1E8AE7E7C6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A5A93F5D54B8C2DECB9D236 /* Pods_SonarDemo.framework */,
+				55ABEBA74E1F81D58FBD5BCE /* Pods_SonarDemo_SonarDemoUITests.framework */,
+				2A4933E7C440C2ADFE0AA5E4 /* Pods_SonarDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3FB18EA03564DC1D640D0C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55463974162A925F7F4BA1A7 /* Pods-SonarDemo.debug.xcconfig */,
+				BCCCBD8862DD308BB94A5AA0 /* Pods-SonarDemo.release.xcconfig */,
+				49BC1924D5937BD6EA3D23D8 /* Pods-SonarDemo-SonarDemoUITests.debug.xcconfig */,
+				4E9441EEA43D88B4C601BA01 /* Pods-SonarDemo-SonarDemoUITests.release.xcconfig */,
+				1AE784908E576FA46822466C /* Pods-SonarDemoTests.debug.xcconfig */,
+				9A3AA7E141F0A2ED03C2F0A8 /* Pods-SonarDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0A0DE7285CB0300091E10D /* SonarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0A0E12285CB0330091E10D /* Build configuration list for PBXNativeTarget "SonarDemo" */;
+			buildPhases = (
+				B85C1314DFFB939437CA4C27 /* [CP] Check Pods Manifest.lock */,
+				AC0A0DE4285CB0300091E10D /* Sources */,
+				AC0A0DE5285CB0300091E10D /* Frameworks */,
+				AC0A0DE6285CB0300091E10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonarDemo;
+			productName = SonarDemo;
+			productReference = AC0A0DE8285CB0300091E10D /* SonarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0A0DFD285CB0330091E10D /* SonarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0A0E15285CB0330091E10D /* Build configuration list for PBXNativeTarget "SonarDemoTests" */;
+			buildPhases = (
+				1F066B2F150A0BED720BC4F1 /* [CP] Check Pods Manifest.lock */,
+				AC0A0DFA285CB0330091E10D /* Sources */,
+				AC0A0DFB285CB0330091E10D /* Frameworks */,
+				AC0A0DFC285CB0330091E10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0A0E00285CB0330091E10D /* PBXTargetDependency */,
+			);
+			name = SonarDemoTests;
+			productName = SonarDemoTests;
+			productReference = AC0A0DFE285CB0330091E10D /* SonarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0A0E07285CB0330091E10D /* SonarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0A0E18285CB0330091E10D /* Build configuration list for PBXNativeTarget "SonarDemoUITests" */;
+			buildPhases = (
+				5A738000A9A13096517CDCA5 /* [CP] Check Pods Manifest.lock */,
+				AC0A0E04285CB0330091E10D /* Sources */,
+				AC0A0E05285CB0330091E10D /* Frameworks */,
+				AC0A0E06285CB0330091E10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0A0E0A285CB0330091E10D /* PBXTargetDependency */,
+			);
+			name = SonarDemoUITests;
+			productName = SonarDemoUITests;
+			productReference = AC0A0E08285CB0330091E10D /* SonarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0A0DE0285CB0300091E10D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AC0A0DE7285CB0300091E10D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AC0A0DFD285CB0330091E10D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AC0A0DE7285CB0300091E10D;
+					};
+					AC0A0E07285CB0330091E10D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AC0A0DE7285CB0300091E10D;
+					};
+				};
+			};
+			buildConfigurationList = AC0A0DE3285CB0300091E10D /* Build configuration list for PBXProject "SonarDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0A0DDF285CB0300091E10D;
+			productRefGroup = AC0A0DE9285CB0300091E10D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0A0DE7285CB0300091E10D /* SonarDemo */,
+				AC0A0DFD285CB0330091E10D /* SonarDemoTests */,
+				AC0A0E07285CB0330091E10D /* SonarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0A0DE6285CB0300091E10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A0DF8285CB0330091E10D /* LaunchScreen.storyboard in Resources */,
+				AC0A0DF5285CB0330091E10D /* Assets.xcassets in Resources */,
+				AC0A0DF3285CB0300091E10D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A0DFC285CB0330091E10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A0E06285CB0330091E10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F066B2F150A0BED720BC4F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonarDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A738000A9A13096517CDCA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonarDemo-SonarDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B85C1314DFFB939437CA4C27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonarDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0A0DE4285CB0300091E10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A0DF0285CB0300091E10D /* ViewController.swift in Sources */,
+				AC0A0DEC285CB0300091E10D /* AppDelegate.swift in Sources */,
+				AC0A0DEE285CB0300091E10D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A0DFA285CB0330091E10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A0E03285CB0330091E10D /* SonarDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A0E04285CB0330091E10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A0E0D285CB0330091E10D /* SonarDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0A0E00285CB0330091E10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0A0DE7285CB0300091E10D /* SonarDemo */;
+			targetProxy = AC0A0DFF285CB0330091E10D /* PBXContainerItemProxy */;
+		};
+		AC0A0E0A285CB0330091E10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0A0DE7285CB0300091E10D /* SonarDemo */;
+			targetProxy = AC0A0E09285CB0330091E10D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0A0DF1285CB0300091E10D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0A0DF2285CB0300091E10D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC0A0DF6285CB0330091E10D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0A0DF7285CB0330091E10D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0A0E10285CB0330091E10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0A0E11285CB0330091E10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0A0E13285CB0330091E10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55463974162A925F7F4BA1A7 /* Pods-SonarDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SonarDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SonarDemo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SonarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0A0E14285CB0330091E10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCCBD8862DD308BB94A5AA0 /* Pods-SonarDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SonarDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SonarDemo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SonarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC0A0E16285CB0330091E10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE784908E576FA46822466C /* Pods-SonarDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SonarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonarDemo.app/SonarDemo";
+			};
+			name = Debug;
+		};
+		AC0A0E17285CB0330091E10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3AA7E141F0A2ED03C2F0A8 /* Pods-SonarDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SonarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonarDemo.app/SonarDemo";
+			};
+			name = Release;
+		};
+		AC0A0E19285CB0330091E10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BC1924D5937BD6EA3D23D8 /* Pods-SonarDemo-SonarDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SonarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonarDemo;
+			};
+			name = Debug;
+		};
+		AC0A0E1A285CB0330091E10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9441EEA43D88B4C601BA01 /* Pods-SonarDemo-SonarDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SonarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0A0DE3285CB0300091E10D /* Build configuration list for PBXProject "SonarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A0E10285CB0330091E10D /* Debug */,
+				AC0A0E11285CB0330091E10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0A0E12285CB0330091E10D /* Build configuration list for PBXNativeTarget "SonarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A0E13285CB0330091E10D /* Debug */,
+				AC0A0E14285CB0330091E10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0A0E15285CB0330091E10D /* Build configuration list for PBXNativeTarget "SonarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A0E16285CB0330091E10D /* Debug */,
+				AC0A0E17285CB0330091E10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0A0E18285CB0330091E10D /* Build configuration list for PBXNativeTarget "SonarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A0E19285CB0330091E10D /* Debug */,
+				AC0A0E1A285CB0330091E10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0A0DE0285CB0300091E10D /* Project object */;
+}

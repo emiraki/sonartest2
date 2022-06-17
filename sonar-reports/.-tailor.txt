@@ -1,0 +1,63 @@
+Analyzing 5 files:
+.S...
+
+********** ./SonarDemo/AppDelegate.swift **********
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/AppDelegate.swift:15:101: warning: [max-line-length] Line is over maximum character limit (145/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/AppDelegate.swift:22:101: warning: [max-line-length] Line is over maximum character limit (179/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/AppDelegate.swift:25:101: warning: [max-line-length] Line is over maximum character limit (108/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/AppDelegate.swift:28:91: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/AppDelegate.swift:28:101: warning: [max-line-length] Line is over maximum character limit (112/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/AppDelegate.swift:30:101: warning: [max-line-length] Line is over maximum character limit (157/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/AppDelegate.swift:31:101: warning: [max-line-length] Line is over maximum character limit (120/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/AppDelegate.swift:36: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** ./SonarDemo/SceneDelegate.swift **********
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:15:101: warning: [max-line-length] Line is over maximum character limit (127/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:16:101: warning: [max-line-length] Line is over maximum character limit (122/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:17:101: warning: [max-line-length] Line is over maximum character limit (116/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:18:101: warning: [max-line-length] Line is over maximum character limit (147/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:19:23: warning: [redundant-parentheses] Initializer expression should not be enclosed within parentheses
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:24:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:25:101: warning: [max-line-length] Line is over maximum character limit (116/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:26:101: warning: [max-line-length] Line is over maximum character limit (140/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:31:101: warning: [max-line-length] Line is over maximum character limit (114/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:46:101: warning: [max-line-length] Line is over maximum character limit (116/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/SceneDelegate.swift:52: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** ./SonarDemo/ViewController.swift **********
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:11:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:12:9: warning: [min-name-length] Variable name is less than minimum character limit (1/4)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:13:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:14:9: warning: [min-name-length] Variable name is less than minimum character limit (1/4)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:14:101: warning: [max-line-length] Line is over maximum character limit (964/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:20:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:21:12: warning: [redundant-parentheses] Condition should not be enclosed within parentheses
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:24:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:25:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:26:38: warning: [brace-style] If statement closing brace should be isolated on a separate line
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:27:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:28:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:29:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:38:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:38:18: warning: [brace-style] Empty construct body should not contain any whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:38:18: warning: [brace-style] Opening brace should have exactly one space before it
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:38:21: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:38:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:39:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:39:18: warning: [brace-style] Empty construct body should not contain any whitespace
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:39:18: warning: [brace-style] Opening brace should have exactly one space before it
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:39:21: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:39:101: warning: [max-line-length] Line is over maximum character limit (122/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemo/ViewController.swift:41: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** ./SonarDemoTests/SonarDemoTests.swift **********
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemoTests/SonarDemoTests.swift:14:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemoTests/SonarDemoTests.swift:18:101: warning: [max-line-length] Line is over maximum character limit (111/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemoTests/SonarDemoTests.swift:25:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/emirhamidovic/Desktop/Projects/SonarDemo/SonarDemoTests/SonarDemoTests.swift:26:101: warning: [max-line-length] Line is over maximum character limit (130/100)
+
+********** ./SonarDemoUITests/SonarDemoUITests.swift **********
+./SonarDemoUITests/SonarDemoUITests.swift could not be parsed successfully, skipping...
+
+Analyzed 4 files, skipped 1 file, and detected 47 violations (0 errors, 47 warnings).
+
